@@ -1,0 +1,1 @@
+eod <- execute(conn, 'select globex, descrip, fo, date, yr, mon, day, lasttrade, pc, strike, settle, delta, impvol, openinterest, totvlm, globvlm, flrvlm, GlobexOpen, GlobexHigh, GlobexLow from eod1')
